@@ -1,0 +1,59 @@
+body {
+    background-color:#232F25;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    width: 380px;
+    height: 64px;
+   
+}
+.post{
+     padding:10px 5%;
+     text-align:flex-end;
+      position:relative;
+      top: 0px;;
+      left: 0px;;
+      width:100%;
+      text-align: left;
+    }
+      .post>*{
+        display:inline-block;
+   width:450px;
+    font-size:30px;
+     vertical-align: middle; 
+    } 
+    header{
+        background-color: rgb(7, 7, 7);
+       text-align:right;
+    }
+    h3{
+        text-align:center;
+    }
+    h4{
+        text-align:center;  
+    }
+    p{
+        text-align:center;   
+    }
+   footer{
+    background-color: black;
+    color: red;
+    
+   }
+   nav{
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    align-items:center;
+    height: 100%;
+   }
+   p:hover{
+    color: aqua;
+   }
+   a:hover{
+    color: aqua;
+   }
+   img{
+    border:10px  lime double;
+   }
